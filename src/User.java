@@ -13,23 +13,23 @@ public class User {
 
     }
 
-    void set_id(int id){
+    public void set_id(int id){
         _id=id;
     }
 
-    int get_userId(){
+    public int get_userId(){
         return _id;
     }
 
-    void set_fullname(String fullname){
+    public void set_fullname(String fullname){
         _fullname=fullname;
     }
 
-    String get_fullname(){
+    public String get_fullname(){
         return _fullname;
     }
 
-    void set_email(String email){
+    public void set_email(String email){
         _email=email;
     }
 

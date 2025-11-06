@@ -9,5 +9,6 @@ public class Main {
 //        System.out.println(user1.get_fullname());
 //        System.out.println(user1.get_email());
         System.out.println(user1.displayUserDetails());
+
     }
 }
